@@ -1,0 +1,25 @@
+{
+  "name": "oclive-remotion-demo",
+  "version": "1.0.0",
+  "description": "Standalone Remotion demo for oclive: renderable video outputs.",
+  "private": true,
+  "scripts": {
+    "preview": "remotion preview src/index.ts",
+    "render": "remotion render src/index.ts OcliveDemo out/oclive-demo.mp4",
+    "render:gif": "remotion render src/index.ts OcliveDemo out/oclive-demo.gif --codec=gif"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "remotion": "^4.0.454"
+  },
+  "devDependencies": {
+    "@remotion/cli": "^4.0.454",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^6.0.3"
+  }
+}
